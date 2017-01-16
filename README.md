@@ -33,6 +33,7 @@ The player can steer the character using the camera and movement input as per an
 ###Combat & Weapons
 The player gets to use a variety of different melee attacks, which are determined by the equipped weapon. To unlock a weapon, the player first goes to the forest to procure the item. They then find their way back to the cave to access the arena using the weapon. Defeating the battle unlocks that weapon.
 The player may only carry one weapon at any given time, but is able to toss their weapon at will, to pick up another weapon in it’s stead. The damaging effect of strikes dealt towards susceptible targets is determined on a 5-step scale:
+
 0. Zero effect.
 1. Light damage.
 2. Medium damage.
