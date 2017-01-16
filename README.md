@@ -42,24 +42,28 @@ The player may only carry one weapon at any given time, but is able to toss thei
 
 ##COLOSSALICON
 Details on the content of the game.
-The World
+
+###The World
 The world has 3 key areas, which tie the gameplay loop together: The cave, the arena, and the forest.
-Cave - The cave is the hub of the game. Here the player is introduced to attacking dummies and putting weapons on the shrine, which is part of furthering the progress of the game. Also, the player will have access to all unlocked weapons from here.
-Arena - Here the player fights different sets of monsters depending on which weapon has been put on the shrine. Defeating the battle unlocks that weapon, and takes the player back to the cave.
-Forest - The forest is a randomly generated area where the main part of the gameplay loop takes place. The player will encounter monsters and pick up weapons and loot here. Each random layout of the forest has a portal, which leads into a new and slightly bigger forest. Eventually the player will be able to escape with a weapon, and attempt to unlock it in the arena.
+
+- Cave - The cave is the hub of the game. Here the player is introduced to attacking dummies and putting weapons on the shrine, which is part of furthering the progress of the game. Also, the player will have access to all unlocked weapons from here.
+- Arena - Here the player fights different sets of monsters depending on which weapon has been put on the shrine. Defeating the battle unlocks that weapon, and takes the player back to the cave.
+- Forest - The forest is a randomly generated area where the main part of the gameplay loop takes place. The player will encounter monsters and pick up weapons and loot here. Each random layout of the forest has a portal, which leads into a new and slightly bigger forest. Eventually the player will be able to escape with a weapon, and attempt to unlock it in the arena.
 
 ###Bestiary
 Creatures in the world. Most of them just want to kill you. Monsters are randomly generated throughout the forest.
-Skeleton - Boney enemy with a variety of weapons. Will follow and attack the player. Every strike will scatter some of it’s bones, and eventually not enough will be left to keep it standing.
-Goblin - Small mob with a variety of aesthetic equipment. Engages and attacks player in range. Runs fast and stabs rapidly. May lose a few limbs. Also bleeds.
-Hooman - Cheering bystander. Very susceptible to damage!
+
+- Skeleton - Boney enemy with a variety of weapons. Will follow and attack the player. Every strike will scatter some of it’s bones, and eventually not enough will be left to keep it standing.
+- Goblin - Small mob with a variety of aesthetic equipment. Engages and attacks player in range. Runs fast and stabs rapidly. May lose a few limbs. Also bleeds.
+- Hooman - Cheering bystander. Very susceptible to damage!
 
 ###Designer’s Thoughts
 Some spiking or recurring thoughts and ideas I’ve had throughout the project.
-I decided to utilize only the structures within Unity for building and modeling. Everything in the game is built using Unity’s primitive geometry.
-Meshes were destroying memory, and so I opted to swap all detailed wilderness (trees in between trees) out with big, simple rocks. 
-Thought of creating flat, spatula-like fingers for performance optimization, but the artist in me would not let me do it.
-One of the tricky parts of building a game around the combat of a character is, that eventually you will have to strip away a huge chunk of that characters power, without taking the fun out of the game.
-Being a one-man-team, I tend to pick the task with lowest implementation complexity per feature increment. This way I can focus on expanding the game in a forward fashion as opposed being sidetracked with implementing nifty little features that does not add to the overall scope of the game.
-The player can see the entire character they’re playing!
-A funny thing about random damage scales and random outfit generation is, that people may misconstrue them as being connected by some logic. They kill a naked goblin and have trouble with an armored one, and instantly there’s a connection between armor and damage. Convincing someone of the opposite is more difficult, so this is a cheap illusion of scaling armor quality - By making the models and just using Random.value.
+
+- I decided to utilize only the structures within Unity for building and modeling. Everything in the game is built using Unity’s primitive geometry.
+- Meshes were destroying memory, and so I opted to swap all detailed wilderness (trees in between trees) out with big, simple rocks. 
+- Thought of creating flat, spatula-like fingers for performance optimization, but the artist in me would not let me do it.
+- One of the tricky parts of building a game around the combat of a character is, that eventually you will have to strip away a huge chunk of that characters power, without taking the fun out of the game.
+- Being a one-man-team, I tend to pick the task with lowest implementation complexity per feature increment. This way I can focus on expanding the game in a forward fashion as opposed being sidetracked with implementing nifty little features that does not add to the overall scope of the game.
+- The player can see the entire character they’re playing!
+- A funny thing about random damage scales and random outfit generation is, that people may misconstrue them as being connected by some logic. They kill a naked goblin and have trouble with an armored one, and instantly there’s a connection between armor and damage. Convincing someone of the opposite is more difficult, so this is a cheap illusion of scaling armor quality - By making the models and just using Random.value.
