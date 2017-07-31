@@ -17,7 +17,7 @@ Extensive descriptions of all core game mechanics and how to play game.
 Gameplay Loop
 The player starts off in a cave equipped with a dagger. Leaving the cave is possible by two options: towards the arena or the forest. Going to the forest, the player has the opportunity to fight enemies and collect new weapons. Entering the arena is only possible by putting a weapon onto the shrine in front of the entrance. The dagger is very much eligible for this action, but entering the forest and acquiring more powerful weapons is the only way to progress through the game. Returning from the forest is done by consuming a teleport gem...
 
-###Controls
+### Controls
 The player can steer the character using the camera and movement input as per ancient video game convention. Invert the camera’s y axis by pressing “i” on the keyboard. Sprinting and jumping are fairly self-explanatory.
 “Attacking” and “consuming” are the main actions the player can take at will and are their primary means of acting upon the world. Holding “throw” while engaging either of these will toss away the item in the respective hand.
 
@@ -30,7 +30,7 @@ The player can steer the character using the camera and movement input as per an
 - Sprint: left shift / left shoulder
 - Jump: space / A
 
-###Combat & Weapons
+### Combat & Weapons
 The player gets to use a variety of different melee attacks, which are determined by the equipped weapon. To unlock a weapon, the player first goes to the forest to procure the item. They then find their way back to the cave to access the arena using the weapon. Defeating the battle unlocks that weapon.
 The player may only carry one weapon at any given time, but is able to toss their weapon at will, to pick up another weapon in it’s stead. The damaging effect of strikes dealt towards susceptible targets is determined on a 5-step scale:
 
